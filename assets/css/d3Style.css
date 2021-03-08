@@ -1,4 +1,25 @@
-.aText {
+.tooltip {
+  position: absolute;
+  width: 135px;
+  height: 60px;
+  padding: 2px;
+  padding-top: 8px;
+  font: 12px sans-serif;
+  color: white;
+  text-align: center;
+  background: #551aaf;
+  border: 0;
+  border-radius: 10px;
+}
+
+.axisText {
+  font-family: sans-serif;
+  font-weight: bold;
+  fill: #551aaf;
+  text-anchor: middle;
+}
+
+/* .aText {
   font-family: sans-serif;
   font-size: 16px;
   text-anchor: middle;
@@ -21,17 +42,17 @@
 .inactive:hover {
   fill: #000;
   cursor: pointer;
-}
+} */
 
 /* font size dependent on radius, see app.js */
 .stateText {
   font-family: sans-serif;
-  fill: #fff;
+  fill: white;
   text-anchor: middle;
 }
 
 .stateCircle {
-  fill: #89bdd3;
+  fill: BLUE;
   stroke: #e3e3e3;
 }
 
@@ -45,7 +66,7 @@
   font-size: 12px;
   line-height: 1;
   line-height: 1.5em;
-  color: #fff;
+  color: rgba(14, 56, 136, 0.178);
   text-align: center;
   text-transform: capitalize;
   background: rgba(0, 0, 0, 0.8);
@@ -68,3 +89,4 @@
     font-size: 13px;
   }
 }
+

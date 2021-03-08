@@ -3,9 +3,9 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>D3Times</title>
+  <title>Data Journalism in D3</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
   <link rel="stylesheet" href="assets/css/d3Style.css">
 
 </head>
@@ -14,31 +14,36 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-md-12">
-        <h1>D3Times</h1>
+        <h1>Health Risks and demographics</h1>
+        <br>
+        <h4>Interactive Chart</h4>
       </div>
     </div>
     <div class="row">
       <div class="col-xs-12  col-md-9">
         <div id="scatter">
-          <!-- We append our chart here. -->
+         
         </div>
       </div>
     </div>
     <div class="row">
       <div class="col-xs-12  col-md-9">
         <div class="article">
-          <h2>Correlations Discovered Between Health Risks and Age, Income</h2>
-          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
-            quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
-            ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+          <h2>Low income as key factor to identify population segments with higher health risks</h2>
+          <p> Eating healthy food is definitly a luxury not everybody can afford. Healthy diet based on whole foods like fruits, vegetables, lean animal protein is on average $1.50 less expensive per day than unhealthy diet based on processed food.
+            When percentage of Obesity is compared with average Income, the graph shows a clear negative correleation. 
+            The higher the average income in the State, the lower the percentage of obesity.   </p>
 
-          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
-            quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
-            ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+          <p>The statement of the relationship between income and obesity in the populations is also proven when percentage of poverty is compared with percentage of obesity. The higher the percentage of poverty, the obesity is also higher. </p>
 
-          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor
-            quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
-            ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+          <p>Another interesting finding is that there is a high correlation between percentage of the population that smokes and the average income of the state.
+             States like West Virginia, Missisipi and Arkansas present the higher percentage of population that consumes cigarretes, while also have the lowest average income in the USA.
+             Opposite example to this is Maryland, with the highest income is also one of the lowest percent of smokers.</p>
+
+          <p> When it comes to limited income, one of the needs that seems to be not met is the healthcare insurance. Based on the graph above, states with low income also lacks healthcare to a higher percent of the population. </p>
+          
+          <p> As a conclusion, there is a high risk of potential health issues linked to houshold income. This segment of the population seems to present higher rates of lifestyles habits linked to health issues, like smoking and obesity.
+             At the same time, limited ecomonic resources makes it difficult to afford a preventive/control care that prevents lifthreatening conditions.   </p>  
         </div>
       </div>
     </div>
@@ -46,12 +51,14 @@
 
   <!-- Footer-->
   <div id="footer">
-    <p>The Coding Boot Camp&copy;2016</p>
+    <p>Analytics and Data Visualization Boot Camp&copy;Ludmila Garcia 2021</p>
   </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> -->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+
   <script type="text/javascript" src="assets/js/app.js"></script>
 
 </body>
