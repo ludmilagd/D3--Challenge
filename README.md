@@ -10,6 +10,6 @@ The final product is presented in a webpage format (HTML) with dynamic a chart t
 
 Tools required: Python, JavaScript, HTML, Local Host server
 
-![alt text](https://github.com/ludmilagd/FifaWorldCup2018/blob/main/Slides/S3.PNG)
-
-
+![alt text](https://github.com/ludmilagd/D3-Javascript--Challenge/blob/main/assets/img1.PNG)
+![alt text](https://github.com/ludmilagd/D3-Javascript--Challenge/blob/main/assets/img2.PNG)
+![alt text](https://github.com/ludmilagd/D3-Javascript--Challenge/blob/main/assets/img3.PNG)
